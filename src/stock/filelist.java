@@ -10,11 +10,10 @@ import java.util.Comparator;
 public class filelist {
 	 private File path;
 	    private File[] files;
-    	 public static void main(String args[]) {
-             String list[] = new File("I:\\").list();
+    	 public static void main (String args[]) {
+             String list[] = new File("C:\\Users\\Драговир Сергеевич\\Downloads").list();
              for(int i = 0; i < list.length; i++)
                  System.out.println(list[i]);
          }
    
 }
-еуууу
